@@ -1,1 +1,1 @@
-APP_MODULE=wsgi.py:app
+APP_MODULE=wsgi:app

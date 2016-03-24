@@ -1,7 +1,5 @@
-__author__ = 'spousty'
 
-
-from bottle import route, run
+from bottle import route, run, default_app
 
 @route('/')
 def index():
@@ -9,3 +7,5 @@ def index():
 
 if __name__ == '__main__':
     run(host='0.0.0.0', port=8080)
+
+app = default_app()
